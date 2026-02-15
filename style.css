@@ -1,0 +1,1187 @@
+.name{
+    font-size:88px;
+    font-weight: bold;    
+    color:rgb(238, 238, 238);
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 230px;
+    
+   
+    
+}
+.b1{
+    background-color: rgb(2, 2, 2);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    position: relative;
+    
+    
+    /* background: linear-gradient(135deg, #544b4b, #000000); */
+    
+
+    
+}
+
+.welcome{
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+    margin-left: 680px;
+    font-size: 19px;
+}
+.tagline{
+    position: absolute;
+    color: rgb(188, 188, 188);
+    font-size:31px ;
+    margin-top: 340px;
+    margin-left: 360px;
+}
+.details{
+    color: rgb(164, 164, 164);
+    position: absolute;
+    margin-top:390px ;
+    margin-left: 410px;
+    font-size: 18px;
+}
+.span{
+    margin-left: 63px;
+    margin-top: 2px;
+    position: absolute;
+}
+.cstag{
+    color: white;
+    margin-top: 30px;
+    margin-left: 150px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    z-index: 2;  /* ඉස්සරහ */
+}
+.menu{
+    color: white;
+    position: absolute;
+    display: flex;
+    margin-left: 520px;
+    list-style: none;
+    margin-top: 32px;
+    z-index: 2;  /* ඉස්සරහ */
+}
+nav ul {
+    gap: 35px;
+}
+nav ul li{
+    filter: brightness(0.7); 
+    color: white;
+    font-size: 15.5px;
+    
+}
+nav ul li:hover{
+filter: brightness(1.5);  
+}
+nav ul a{
+    text-decoration: none;
+}
+.db1{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border: 2.1px solid black;
+    margin-top:470px ;
+    margin-left:530px ;
+    padding: 18px;
+    width: 140px;
+    height: 22px;
+    text-align: center;
+    border-radius: 60px;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+    
+
+}
+.db1:hover {
+  transform: scale(1.04);  /* පින්තූරය 15% ලොකු */
+  
+}
+.db2{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-color: black;
+    border: 2.1px solid white;
+    margin-left: 750px;
+    margin-top: 470px;
+    padding: 18px;
+    text-align: center;
+    width: 140px;
+    height: 22px;
+    border-radius: 60px;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+
+}
+.db2:hover{
+   transform: scale(1.04);  /* පින්තූරය 15% ලොකු */
+}
+.githubl{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-top:570px;
+    margin-left: 600px;
+    transition: all 0.3s ease;
+    filter: brightness(0.7);  /* Normal එකේදී 30% dark */
+
+}
+.githubl:hover{
+    transform: translateY(-8px);  /* උඩට */
+    filter: brightness(2.5);      /* දීප්තිමත් */
+}
+.lindiv{
+    position: absolute;
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-top: 570px;
+    margin-left: 690px;
+    border-radius: 7px;
+    filter: brightness(0.7); 
+    transition: transform 0.3s ease;
+}
+.linpara{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 4px;
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+.lindiv:hover{
+    transform: translateY(-8px); 
+    filter: brightness(2.0);  }   
+.outimg{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    margin-top: 570px;
+    margin-left: 790px;
+    filter: brightness(0.7); 
+    transition: transform 0.3s ease;
+}
+.outimg:hover{
+    transform: translateY(-8px);  
+    filter: brightness(1.5);      
+}
+.upperdiv{
+    position: absolute;
+    background-color: #232222;
+    width:1510px ;
+    height: 90px;
+    border: 1px solid rgb(94, 94, 94) ;
+    overflow: hidden;
+    border-radius: 16px;
+    
+
+}
+.dtalk{
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0.9px solid rgb(254, 188, 188);
+    margin-top:25px ;
+    margin-left:1220px ;
+    padding: 18px;
+    width: 85px;
+    height: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    border-radius: 60px;
+    font-size: 14.5px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    font-weight: 549;
+
+}
+.dtalk:hover{
+    transform: scale(1.04);  /* පින්තූරය 15% ලොකු */
+}
+nav a.active {
+    color: white;  /* text color white (අවශ්‍ය නම්) */
+    border-bottom: 2.8px solid white;
+    padding-bottom: 3px;  /* underline එක සහ text අතර ඉඩ */
+
+}
+.contacth{
+    position: absolute;
+    color: white;
+    font-size: 58px;
+    margin-top: 142px;
+    margin-left: 540px;
+}
+.contactde{
+    position: absolute;
+    color: rgb(172, 169, 169);
+    font-size: 22px;
+    margin-top: 220px;
+    margin-left: 430px;
+}
+.youtext{
+    margin-left: 275px;
+    font-size: 22px;
+}
+.coninfo{
+    position: absolute;
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+    /* margin-left:810px ;
+    margin-top:390px ; */
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.condiv{
+    position: absolute;
+   background-color: rgb(33, 33, 33);
+    border: 1px solid rgb(107, 107, 107);
+    width: 540px;
+    height:560px;
+    margin-top: 340px;
+    margin-left: 770px;
+    
+    border-radius: 16px;
+}
+.div1 {
+    
+    
+    width: 476px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: rgb(63, 62, 62);
+    margin-left: 30px;
+    margin-top: 115px;
+    border: 0.4px solid rgb(79, 78, 78);
+    transition: transform 0.5s ease;  
+}
+.div1:hover,.div2:hover,.div3:hover,.div4:hover{
+    transform: translateX(13px);
+}
+.div2{
+    width: 476px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: rgb(63, 62, 62);
+    margin-left: 30px;
+    margin-top: 31px;
+    transition: transform 0.5s ease;
+
+    
+    
+}
+
+.div3{
+    width: 476px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: rgb(63, 62, 62);
+    margin-left: 30px;
+    margin-top: 31px;
+    transition: transform 0.5s ease;
+    
+}
+
+.div4{
+    width: 476px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: rgb(63, 62, 62);
+    margin-left: 30px;
+    margin-top: 31px;
+    transition: transform 0.5s ease;
+
+}
+
+.pMail{
+    color: white;
+    font-size: 16px;
+    
+    margin-top: 19px;
+    margin-left: 70px;
+}
+.pPhone{
+     color: white;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.pLinked{
+     color: white;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 70px;
+}
+.pGit{
+     color: white;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 70px;
+}
+.bContact{
+    
+    background-color: rgb(0, 0, 0);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    position: relative;
+    
+    /* background: linear-gradient(135deg, #544b4b, #000000); */
+    width: 100%;
+    height: 1300px;
+    overflow-x: hidden;
+
+    
+
+}
+span{
+    color: rgb(177, 170, 170);
+    font-size: 14.8px;
+}
+.imgMail{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin-top: 24px;
+    margin-left: 15px;
+    filter: brightness(0.9);
+    border-radius: 6px;
+}
+.imgPhone{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    margin-top:24px ;
+    margin-left: 15px;
+    filter: brightness(0.9);
+}
+.imgLinkedIn{
+
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    filter: brightness(0.9);
+    border-radius: 6px;
+    margin-top: 14px;
+    margin-left: 7px;
+}
+.imgGitHub1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 17px;
+    filter: brightness(0.9);
+    margin-top: 23px;
+    margin-left: 16px;
+}
+/* .formC{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 300px;
+} */
+/* form label{
+   
+    color: white;margin-left: 350px;
+    margin-top: 300px;
+    font-size: 15px;
+    filter: brightness(0.78);
+    position: absolute;
+    
+}
+form input{
+    position: absolute;
+    border: 1px solid rgb(120, 119, 119);
+    margin-left: 300px;
+    margin-top: 320px;
+    border-radius: 6px;
+    background-color: rgb(56, 56, 56);
+    width: 100px;
+    height: 100px; 
+} */
+.divF1{
+    border: none;
+    width: 500px;
+    height: 100px;
+    margin-top: 340px;
+    margin-left: 180px;
+    position: absolute;
+}
+.divF2{
+    border: none;
+    width: 500px;
+    height: 100px;
+    margin-top: 460px;
+    margin-left: 180px;
+    position: absolute;
+}
+.divF3{
+    border: none;
+    width: 500px;
+    height: 100px;
+    margin-top: 580px;
+    margin-left: 180px;
+    position: absolute;
+}
+.divF4{
+    border: none;
+    width: 500px;
+    height: 100px;
+    margin-top: 700px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.divF1 label,.divF2 label,.divF3 label,.divF4 label{
+    color: rgb(178, 176, 176);
+    font-size: 15px;
+    
+}
+.divF1 input,.divF2 input,.divF3 input,.divF4 input{
+    width:500px ;
+    margin-top: 12px;
+    height: 57px;
+    border-radius: 16px;
+    border: 1px solid rgb(79, 79, 79);
+    background-color: rgb(31, 30, 30);
+    font-size: 16px;
+    transition: transform(0.9 ease);
+    color: white;
+    padding-left: 25px;
+    font-family: 'Inter', sans-serif;
+}
+.divF1 input:hover,.divF2 input:hover,.divF3 input:hover,.divF4 input:hover{
+
+    transform: scale(1.05);
+}
+ .btn{
+    background-color: white;
+    width: 530px;
+    height: 57px;
+    position: absolute;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 830px;
+    margin-left: 180px;
+    transition: transform 0.5s ease;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+ 
+
+
+
+
+.divFinal{
+    position: absolute;
+    border-radius: 16px;
+    
+   
+    background-color: rgb(33, 33, 33);
+    border: 1px solid rgb(107, 107, 107);
+    margin-top: 940px;
+    margin-left: 770px;
+    width: 540px;
+    height:280px;
+}
+.spanC1{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 26px;
+}
+.spanC2{
+    font-size: 16px;
+    color: rgb(192, 191, 191);
+    position: absolute;margin-top: 64px;
+    margin-left: 25px;    
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-weight: 500;
+}
+.divSk1{
+    color: rgb(250, 250, 250);
+    border-radius: 22px;
+    border: none;
+    position: absolute;
+    margin-top: 159px;
+    margin-left: 32px;
+    background-color: rgb(92, 90, 90);
+    font-size: 14px;
+    height: 35px;
+    width:128px ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.divSk2{
+    color: white;
+    border-radius: 22px;
+    border:none;
+    position: absolute;
+    margin-top: 159px;
+    margin-left: 189px;
+    font-size: 14px;
+    height: 35px;
+    width:128px ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(92, 90, 90);
+
+}
+.divSk3{
+    color: white;
+    border-radius: 22px;
+    border: none;
+    position: absolute;
+    margin-top: 159px;
+    margin-left: 347px;
+    font-size: 14px;
+    height: 35px;
+    width:128px ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(92, 90, 90);
+}
+.div1 p a,.div2 p a{
+    text-decoration: none;
+    color: white;
+}
+/*about me */
+.pAbout{
+    font-size: 62px;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.pAboutMe{
+    color: rgb(189, 188, 188);
+    position: absolute;
+    font-size: 19px;
+    margin-top: 240px;
+    margin-left: 150px;
+    line-height: 1.2;
+}
+
+.dAbout1{
+    position: absolute;
+    width: 1170px;
+    height: 280px;
+    border: 1px solid rgb(77, 77, 77);
+    background-color: rgb(23, 23, 23);
+    margin-left: 150px;
+    margin-top: 360px;
+    border-radius: 16px;
+
+}
+.WhoAmI{
+    color: white;
+position: absolute;
+font-size: 30px;
+ font-weight: bold;
+ margin-left: 55px;
+ margin-top: 41px;
+}
+.pDes{
+    position: absolute;
+    font-size: 17.9px;
+    color: rgb(200, 200, 200);
+    margin-top: 120px;
+    margin-left: 55px;
+    line-height: 1.3;
+    z-index: 3;
+}
+.pDes1{
+    position: absolute;
+    font-size: 17.9px;
+    color: rgb(200, 200, 200);
+    margin-top: 190px;
+    margin-left: 55px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.profile{
+    border: 1px solid white;
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 1150px;
+    border-radius: 100px;
+}
+.imgP{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+.b3{
+    width: 100%;
+    height: 2230px;
+    position: relative;
+    overflow-x: hidden;
+    background-color: rgb(2, 2, 2);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.technical{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 700px;
+    font-weight: bold;
+}
+.cloud,.databases,.programming,.web{
+    position: absolute;
+    width: 370px;
+    height: 140px;
+    border: 1px solid rgb(49, 49, 49);
+    background-color: rgb(24, 24, 24);
+    border-radius: 16px;
+    color: rgb(229, 228, 228);
+    transition: transform 0.6s ease;
+}
+.cloud:hover,.databases:hover,.programming:hover,.web:hover{
+    transform: scale(1.04);
+}
+
+.programming{
+    margin-top:779px ;
+    margin-left: 155px;
+    
+}
+.programming p{
+    font-size: 19.9px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.databases{
+    margin-top:779px ;
+    margin-left: 555px;
+}
+.databases p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+
+}
+.cloud{
+    margin-top:779px ;
+    margin-left: 955px;
+}
+.cloud p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+
+} 
+.web{
+    margin-top:946px ;
+    margin-left: 155px;
+
+}
+.web p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.programming div,.databases div,.cloud div,.web div{
+    position: absolute;
+    border:none;
+    background-color: rgb(46, 46, 46);
+    border-radius: 16px;
+
+}
+.p1{
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.p2{
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.p3{width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d1{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.c1{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.w1{
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.w2{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.w3{
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.w4{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.certifications{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 1150px;
+    font-weight: bold;
+}
+.achi1,.achi2,.achi3,.achi4{
+    position: absolute;
+    width: 550px;
+    height: 42px;
+    background-color: rgb(36, 35, 35);
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 12px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    transition: transform 0.6s ease;
+
+}
+.achi1:hover,.achi2:hover,.achi3:hover,.achi4:hover{
+          transform: translateY(-8px);
+}
+
+.achi1{
+    margin-top: 1230px;
+    margin-left: 165px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.achi2{
+    margin-top: 1230px;
+    margin-left: 754px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+
+}
+.achi3{
+    margin-top: 1310px;
+    margin-left: 165px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.achi4{
+    margin-top: 1310px;
+    margin-left: 754px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.leadership{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 1430px;
+    font-weight: bold;
+}
+.acti1,.acti2{
+    position: absolute;
+    width: 550px;
+    height: 42px;
+    background-color: rgb(36, 35, 35);
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 12px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    transition: transform 0.6s ease;
+
+}
+.acti1:hover,.acti2:hover{
+    transform: translateY(-8px);
+}
+.acti1{
+    margin-top: 1510px;
+    margin-left: 165px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.acti2{
+    margin-top: 1510px;
+    margin-left: 754px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.soft{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 1635px;
+    font-weight: bold;
+}
+.soft1,.soft2,.soft3,.soft4{
+ position: absolute;
+    width: 550px;
+    height: 42px;
+    background-color: rgb(36, 35, 35);
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 12px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;   
+}
+.soft1{
+    margin-top: 1715px;
+    margin-left: 165px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.soft2{
+    margin-top: 1715px;
+    margin-left: 754px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.soft3{
+    margin-top: 1795px;
+    margin-left: 165px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.soft4{
+    margin-top: 1795px;
+    margin-left: 754px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.Langu{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 1908px;
+    font-weight: bold;
+}
+.langu1,.langu2{
+    position: absolute;
+    width: 550px;
+    height: 42px;
+    background-color: rgb(36, 35, 35);
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 12px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;  
+}
+.langu1{
+margin-top: 1995px;
+    margin-left: 165px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+
+}
+.langu2{
+    margin-top: 1995px;
+    margin-left: 754px;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+}
+.b4{
+
+    width: 100%;
+    height: 2230px;
+    position: relative;
+    overflow-x: hidden;
+    background-color: rgb(2, 2, 2);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+.pName{
+    
+    position: absolute;
+    color: white;
+    font-size: 64px;
+    margin-top: 132px;
+    margin-left: 160px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pDes3{
+    color: rgb(197, 196, 196);
+    font-size: 19.6px;
+    margin-top: 240px;
+    position: absolute;
+    margin-left: 160px;
+}
+.srs{
+    position: absolute;
+    border-radius: 16px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(21, 21, 21);
+    border: 1px solid rgb(77, 77, 77);
+    margin-left: 161px;
+    margin-top: 350px;
+    transition: transform 0.5s ease;
+}
+.srs:hover{
+    transform: translateY(-8px);
+}
+.srsP1{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 28px;
+    margin-left: 30px;
+}
+.srsD1{
+    color: white;
+    font-size: 16px;
+   font-weight: bold;
+    background-color: rgb(81, 79, 79);
+    border: none;
+    width: 86px;
+    height: 24px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 280px;
+    margin-top: -83px;
+
+}
+.srsP2{
+    color: rgb(155, 149, 149);
+    margin-top: 49px;
+    margin-left: 32px;
+    font-size: 15px;
+    position: absolute;
+    font-weight: 600;
+}
+.div4 a,.div3 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
